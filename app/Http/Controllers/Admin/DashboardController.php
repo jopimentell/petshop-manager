@@ -14,6 +14,8 @@ class DashboardController extends Controller
 {
     public function index()
     {
+
+        
         $dados = [
             'totalClientes' => Cliente::count(),
             'totalAnimais' => Animal::count(),

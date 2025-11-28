@@ -1,7 +1,7 @@
 {{-- resources/views/auth/login.blade.php --}}
 @extends('layouts.guest')
 
-@section('title', 'Login - PetShop Care')
+@section('title', 'Login - PetShop')
 @section('body-class', 'login-page')
 
 @section('content')
@@ -125,7 +125,7 @@
     <div class="text-center mt-4" style="color: #6c757d;">
         <p class="mb-1">
             <i class="fas fa-paw mr-1"></i>
-            <small>© 2024 PetShop Care. Sistema de gestão para petshops.</small>
+            <small>© PetShop. Sistema de gestão para petshops.</small>
         </p>
     </div>
 </div>

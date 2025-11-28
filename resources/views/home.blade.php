@@ -1,7 +1,7 @@
 {{-- resources/views/home.blade.php --}}
 @extends('layouts.guest')
 
-@section('title', 'PetShop Care - Cuidado Premium para seu Pet')
+@section('title', 'PetShop - Cuidado Premium para seu Pet')
 @section('body-class', 'hold-transition')
 
 @section('styles')
@@ -197,7 +197,7 @@
                         <a href="{{ route('register') }}" class="btn btn-primary btn-hero">
                             <i class="fas fa-rocket mr-2"></i>Começar Agora
                         </a>
-                        <a href="{{ route('login') }}" class="btn btn-outline-primary btn-hero">
+                        <a href="{{ route('login') }}" class="btn btn-outline-primary btn-hero ml-2">
                             Fazer Login
                         </a>
                     </div>
@@ -261,10 +261,10 @@
     <div class="container">
         <p>
             <i class="fas fa-paw mr-2"></i>
-            <b>PetShop Care</b> - Sistema de gestão para petshops
+            <b>PetShop</b> - Sistema de gestão para petshops
         </p>
         <p class="small text-muted">
-            © 2024 PetShop Care. Desenvolvido com ❤️ para quem ama animais
+            © 2024 PetShop. Desenvolvido com ❤️ para quem ama animais
         </p>
     </div>
 </footer>

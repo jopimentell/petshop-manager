@@ -1,7 +1,7 @@
 {{-- resources/views/auth/register.blade.php --}}
 @extends('layouts.guest')
 
-@section('title', 'Cadastro - PetShop Care')
+@section('title', 'Cadastro - PetShop')
 @section('body-class', 'register-page')
 
 @section('content')
@@ -142,7 +142,7 @@
     <div class="text-center mt-4" style="color: #6c757d;">
         <p class="mb-1">
             <i class="fas fa-paw mr-1"></i>
-            <small>© 2024 PetShop Care. Sistema de gestão para petshops.</small>
+            <small>© PetShop. Sistema de gestão para petshops.</small>
         </p>
         <p class="mb-0">
             <small>Ao continuar com o Google, Apple ou e-mail, você está concordando com os Termos de Serviço e Política de Privacidade</small>

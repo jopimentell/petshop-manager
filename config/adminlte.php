@@ -335,11 +335,6 @@ return [
             'url'  => '/admin/servicos',
             'icon' => 'fas fa-concierge-bell',
         ],
-        [
-            'text' => 'Sair',
-            'url'  => '/logout',
-            'icon' => 'fas fa-sign-out-alt',
-        ],  
 
         // Sidebar items:
         
